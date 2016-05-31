@@ -1,13 +1,14 @@
-#Big Query Script Notes
-
-##Usage is printed by invoking the script without any parameters:
+## Big Query Script Notes
+### Usage 
+Usage is printed by invoking the script without any parameters:
 
 ./big_query.py 
 big_query.py: ip_address ascan 
       ip_address is the IP address of the BIG(Bluetooth Internet Gateway)
       ascan  specifies doing an active scan
 
-## Logs of ascan 
+### Logs of ascan 
+
 XPS8700: ~/work/wiced/wiced_github.git/scripts : ./big_query.py 192.168.2.191 ascan
                                               href               bdaddr bdaddrType  rssi    (ADType, ADValue) 
       http://192.168.2.191/gap/nodes/425E791F18391         425E791F1839          1   -45 (1 1A)  (3 0A180D18)  (9 48656172742052617465) 
